@@ -4,48 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Космос</title>
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        font-family: Arial, sans-serif;
-        color: white;
-      }
-      .background {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url("./assets/cosmos.png");
-        background-size: cover;
-        background-position: center;
-        filter: brightness(0.5);
-        z-index: -1;
-      }
-      .container {
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-      }
-      .card {
-        background-color: rgba(0, 0, 0, 0.7);
-        border-radius: 10px;
-        padding: 20px;
-        width: 300px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      .card h2 {
-        margin-top: 0;
-      }
-      .card p {
-        margin-bottom: 0;
-      }
-    </style>
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="background"></div>
@@ -70,6 +30,24 @@
       <div class="card">
         <h2>Марс</h2>
         <p>Четвёртая планета от Солнца. Красная планета с пыльными бурями.</p>
+      </div>
+      <div class="card">
+        <h2>Юпитер</h2>
+        <p>
+          Пятая и самая крупная планета. Газовый гигант с сильными штормами.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Сатурн</h2>
+        <p>Известен своими величественными кольцами. Газовый гигант.</p>
+      </div>
+      <div class="card">
+        <h2>Уран</h2>
+        <p>Седьмая планета. Имеет ледяную атмосферу и вращается "на боку".</p>
+      </div>
+      <div class="card">
+        <h2>Нептун</h2>
+        <p>Восьмая и самая дальняя планета. Холодный ледяной гигант.</p>
       </div>
     </div>
   </body>
