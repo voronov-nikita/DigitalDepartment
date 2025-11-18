@@ -103,7 +103,7 @@ Visual Studio Code уже был установлен на моем личном
 
 ### PULL REQUEST
 
-
+![image-pull-request](./trash/img/pull-request.png)
 
 ---
 
